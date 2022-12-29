@@ -48,12 +48,12 @@ body {
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 1.8rem;
+  gap: 2.4rem;
   align-items: center;
 }
 .box {
   max-width: 40rem;
-  height: 30rem;
+  height: 25rem;
   padding: 3.2rem;
   background-color: #fff;
   display: flex;
@@ -73,7 +73,7 @@ body {
 }
 .col-2 {
   display: grid; 
-  gap: 1.8rem;
+  gap: 2.4rem;
 }
 .supervisor,
 .team-builder,
@@ -100,5 +100,10 @@ body {
   .cards-container {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+}
+@media (max-width: 22em) {  
+  html {
+    font-size: 50%;
   }
 }
