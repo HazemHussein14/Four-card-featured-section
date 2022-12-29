@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Demo](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/four-card-feature-section-OX0OdtXuA4)
+- [Live Demo](https://hazemhussein14.github.io/Four-card-featured-section/)
 
 ## My process
 
