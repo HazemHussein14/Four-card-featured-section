@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --Red: #ea5353;
+  --Cyan: #45d3d3;
+  --Orange: #fcaf4a;
+  --Blue: #549ef2;
+  --Very-Dark-Blue: #4c4e61;
+  --Grayish-Blue: #a3a5ae;
+  --Very-Light-Gray: #fafafa;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--Very-Light-Gray);
+}
+.feature-text {
+  max-width: 50rem;
+  text-align: center;
+  margin: 0 auto; 
+  margin-bottom: 5.4rem;
+}
+.title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}
+.sub-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 1.6rem;
+}
+.feature-description {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.8rem;
+  align-items: center;
+}
+.box {
+  max-width: 40rem;
+  height: 30rem;
+  padding: 3.2rem;
+  background-color: #fff;
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.4rem 3.4rem rgba(163, 165, 174, 0.325);
+}
+.box h3 {
+  font-size: 2rem;
+  color: var(--Very-Dark-Blue);
+}
+.box p {
+  font-size: 1.5rem;
+  color: var(--Grayish-Blue);
+}
+.box img {
+  align-self: flex-end;
+}
+.col-2 {
+  display: grid; 
+  gap: 1.8rem;
+}
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+  border-top: 4px solid;
+}
+.supervisor {
+  border-color: var(--Cyan);
+}
+.team-builder {
+  border-color: var(--Red);
+}
+.karma {
+  border-color: var(--Orange);
+}
+.calculator {
+  border-color: var(--Blue);
+}
+@media (max-width: 48em) {  
+  body {
+    padding: 2rem;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
